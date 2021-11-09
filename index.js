@@ -10,7 +10,7 @@ app.get('/api/courses', (req, res) => {
 });
 
 // /api/courses/1
-app.get('/api.courses/:year/:month', (req, res) =>   {
+app.get('/api/courses/:year/:month', (req, res) =>   {
     res.send(req.params);
 });
 
